@@ -104,7 +104,7 @@
                 .style("opacity", 0);
 
             svg.selectAll("rect")
-                .on("mouseover", function() {
+                .on("mouseover", function(d) {
                     d3.csv("new_renaissance_subjects.csv",
                         function(newdata) {
                             var subjects = newdata;
