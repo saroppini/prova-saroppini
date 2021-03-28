@@ -132,6 +132,7 @@
                 .on("mouseout", function() {
                     div.transition()
                         .duration(200)
+                        .html("")
                         .style("opacity", 0);
                     d3.select(this).attr("fill", "#69b3a2");
                 });
