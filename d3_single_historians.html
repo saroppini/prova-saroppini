@@ -130,9 +130,9 @@
                     d3.select(this).attr("fill", "blue");
                 })
                 .on("mouseout", function() {
-                    div.transition()
+                    div.html("")
+                        .transition()
                         .duration(200)
-                        .html("")
                         .style("opacity", 0);
                     d3.select(this).attr("fill", "#69b3a2");
                 });
