@@ -33,9 +33,7 @@
     function doit(csvpath) {
         const cic = document.getElementById("chart").getContext("2d");
 
-        d3.csv(csvpath).then(makeChart);
-
-        function makeChart(data) {
+        d3.csv(csvpath, function makeChart(data) {
             // data is an array of objects where each object represents a country
             var subtypes = data.map(function (d) {
                 return d.subtype;
@@ -92,7 +90,7 @@
                     ]
                 }
             });
-        }
+        })
     }
 </script>
 
