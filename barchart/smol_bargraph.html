@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style type="text/css">
+		body {
+		  font-family: 'Roboto';
+		  color: #333;
+		  background-color: #F9F7EB;
+		}
+		#title {
+		  font-family: 'Merriweather';
+		  text-align: center;
+		  padding: 30px;
+		  font-size: 28px;
+		  letter-spacing: -0.01em;
+		  color: #333;
+		}
+		#legend {
+		  display: flex;
+		  justify-content: center;
+		  padding: 0 10px 10px 10px;
+		  font-size: 14px;
+		}
+		#legend .item {
+		  line-height: 12px;
+		  padding: 0 10px 0 4px;
+		}
+
+		#legend .item.one {
+		  border-left: 12px solid #d4ebf2;
+		}
+		#legend .item.two {
+		  border-left: 12px solid #;
+		}
+		#legend .item.three {
+		  border-left: 12px solid #add3e6;
+		}
+		#legend .item.four {
+		  border-left: 12px solid #add8e6;
+		}
+		#legend .item.five {
+		  border-left: 12px solid #addde6;
+		}
+		#legend .item.six {
+		  border-left: 12px solid #ade2e6;
+		}
+		#legend .item.seven {
+		  border-left: 12px solid #ade6e6;
+		}
+		#setDim {
+		  height: 200px;
+		  width: 350px;
+		  margin: auto;
+		}
+	</style>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource@0.1.0"></script>
+<script src="https://d3js.org/d3.v4.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/d3-selection.v1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.min.js"></script>
+</head>
+
+
+<body>
+
+<div id="title">Which objects are the most used for the knowledge of Renaissance?</div>
+
+<!-- <div id="legend">
+  <div class="item one">1</div>
+  <div class="item two">2</div>
+  <div class="item three">3</div>
+  <div class="item four">4</div>
+  <div class="item five">6</div>
+  <div class="item six">8</div>
+  <div class="item seven">15</div>
+</div> -->
+
+<div id='setDim'>
+<canvas id="myChart" width="18.5" height="30"></canvas>
+</div>
+
+<script>
+const final_chart = document.getElementById('myChart').getContext('2d');
+
+// Load the dataset
+d3.csv("resources_for_barchart.csv", function (allObjects) {
+
+    var ObjectsTypes = allObjects.map(function (d) {
+      return d.ObjectType; //forse problemi di formato perchè ci vorrebbe una lista/array
+    });
+    var objectsNum = allObjects.map(function (d) {
+      return d.count_coll;
+    });
+
+    new Chart(final_chart, {
+      type: "horizontalBar",
+      data: {
+        labels: ObjectsTypes,
+        datasets: [{
+		  label: "Object type frequency",
+		  data: objectsNum,
+		  backgroundColor: ['#ade6e6', "#ade2e6", "#addae6", "#add8e6", "#add8e6", "#add8e6", "#add3e6", "#b3cde0", "#b3cde0", "#b3cde0", "#b3cde0", "#b3cde0", '#adcae6', '#adcae6', '#adcae6', '#adcae6', '#adcae6', '#adcae6', '#adcae6', '#adcae6', '#adcae6', '#adcae6', '#adcae6', '#adcae6', '#adcae6', '#adcae6', '#adcae6', '#adcae6'],
+		}],
+
+      },
+      options: {
+	      legend: { display: false },
+	      title: {
+	        display: true,
+	        text: 'All object types distributed per number of occurencies'
+	      }
+	  }
+    });
+  }
+);
+
+// LINK UTILI
+//https://tobiasahlin.com/blog/chartjs-charts-to-get-you-started/
+//https://www.chartjs.org/docs/latest/charts/bar.html
+//https://www.createwithdata.com/chartjs-and-csv/
+
+</script>
+
+</body>
+</html>
