@@ -14,13 +14,103 @@
 
     <style>
         div#container {
+            height: 200px;
             width: 800px;
+            margin: auto;
+        }
+        body {
+            font-family: 'Roboto';
+            color: #333;
+            background-color: #F9F7EB;
+        }
+        .butt{
+            justify-content: center;
+            text-align: center;
+            margin: auto;
+        }
+        .button{
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 10px 28px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        .button1 {
+            background-color: white;
+            color: black;
+            border: 2px solid #555555;
+        }
+
+        .button1:hover {
+            background-color: #555555;
+            color: white;
+        }
+        #title {
+            font-family: 'Merriweather';
+            text-align: center;
+            padding: 30px;
+            font-size: 28px;
+            letter-spacing: -0.01em;
+            color: #333;
+        }
+        #legend {
+            display: flex;
+            justify-content: center;
+            padding: 0 10px 10px 10px;
+            font-size: 14px;
+        }
+        #legend .item {
+            line-height: 12px;
+            padding: 0 10px 0 4px;
+        }
+
+        #legend .item.one {
+            border-left: 12px solid #d4ebf2;
+        }
+        #legend .item.two {
+            border-left: 12px solid;
+        }
+        #legend .item.three {
+            border-left: 12px solid #add3e6;
+        }
+        #legend .item.four {
+            border-left: 12px solid #add8e6;
+        }
+        #legend .item.five {
+            border-left: 12px solid #addde6;
+        }
+        #legend .item.six {
+            border-left: 12px solid #ade2e6;
+        }
+        #legend .item.seven {
+            border-left: 12px solid #ade6e6;
         }
     </style>
 </head>
 <body>
-<div>
-    <button onclick="doit('bar_person_subtype.csv')">persons</button>
+
+<!-- <div id="legend">
+  <div class="item one">1</div>
+  <div class="item two">2</div>
+  <div class="item three">3</div>
+  <div class="item four">4</div>
+  <div class="item five">6</div>
+  <div class="item six">8</div>
+  <div class="item seven">15</div>
+</div> -->
+
+<div class="butt">
+    <button class="button button1" onclick="doit('bar_person_subtype.csv')">People</button>
+</div>
+
+<div class="butt">
+    <button class="button button1" onclick="doit('chart_to_quest.csv')">Technique/genre/material</button>
 </div>
 
 <div id="container">
