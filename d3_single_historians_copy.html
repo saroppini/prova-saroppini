@@ -17,6 +17,7 @@
             background: lightsteelblue;
             border: 0px;
             border-radius: 8px;
+            visibility: hidden;
         }
     </style>
 </head>
@@ -112,29 +113,30 @@
 
             svg.selectAll("rect")
                 .on("mouseover", function(d) {
-                    var x = d3.event.pageX - document.getElementById('my_dataviz').getBoundingClientRect().x + 10;
-                    var y = d3.event.pageY - document.getElementById('my_dataviz').getBoundingClientRect().y + 10;
+                    // var x = d3.event.pageX - document.getElementById('my_dataviz').getBoundingClientRect().x + 10;
+                    // var y = d3.event.pageY - document.getElementById('my_dataviz').getBoundingClientRect().y + 10;
 
-                    div.transition()
-                        .duration(200)
-                        .style("opacity", .9);
-                    div.html(d[historianName].replace(/, /g, " <br>"))
-                        .style("left", x + 20 + "px")
-                        .style("top", y + "px");
-                    d3.select(this).attr("fill", "blue");
+                    // var textdiv = document.getElementById('text');
+                    // textdiv.innerHTML = d[historianName].replace(/, /g, " <br>");
+
+                    div.style('visibility', 'visible')
+                        .style("opacity", .9)
+                        // .style('top', d3.event.pageY - 10 + 'px')
+                        // .style('left', d3.event.pageX + 10 + 'px')
+                        // .html(d[historianName].replace(/, /g, " <br>"));
+
                 })
                 .on("mousemove", function (d) {
-                    var x = d3.event.pageX - document.getElementById('my_dataviz').getBoundingClientRect().x + 10;
-                    var y = d3.event.pageY - document.getElementById('my_dataviz').getBoundingClientRect().y + 10;
+                    // var x = d3.event.pageX - document.getElementById('my_dataviz').getBoundingClientRect().x + 10;
+                    // var y = d3.event.pageY - document.getElementById('my_dataviz').getBoundingClientRect().y + 10;
 
-                    div.html(d[historianName].replace(/, /g, " <br>"))
-                       .style("left", x + 20 + "px")
-                        .style("top", y + "px");
+                    div .style('top', d3.event.pageY - 10 + 'px')
+                        .style('left', d3.event.pageX + 10 + 'px')
+                        .html(d[historianName].replace(/, /g, " <br>"));
+                    d3.select(this).attr("fill", "blue");
                 })
                 .on("mouseout", function() {
-                    div
-                        .transition()
-                        .duration(200)
+                    div.style('visibility', 'hidden')
                         .style("opacity", 0);
                     d3.select(this).attr("fill", "#69b3a2");
                 });
