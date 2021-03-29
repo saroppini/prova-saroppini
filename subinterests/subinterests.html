@@ -13,7 +13,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.min.js"></script>
 
     <style>
-        div#container {
+        div.container {
             height: 200px;
             width: 800px;
             margin: auto;
@@ -106,22 +106,28 @@
 </div> -->
 
 <div class="butt">
-    <button class="button button1" onclick="doit('bar_person_subtype.csv', 'Number of of people studied by their profession')">People</button>
+    <button class="button button1" onclick="doit('bar_person_subtype.csv', 'Number of of people studied by their profession', 'chart', 'myChart' )">People</button>
 </div>
 
 <div class="butt">
-    <button class="button button1" onclick="doit('chart_to_quest.csv', 'All object types distributed per number of occurencies')">Technique/genre/material</button>
+    <button class="button button1" onclick="doit('chart_to_quest.csv', 'All object types distributed per number of occurencies', 'myChart', 'chart')">Technique/genre/material</button>
 </div>
 
-<div id="container">
+<div class="container">
     <canvas id="chart"></canvas>
 </div>
 
+<div class="container">
+    <canvas id="myChart"></canvas>
+</div>
 
 <script>
 
-    function doit(csvpath, frase) {
-        const cic = document.getElementById("chart").getContext("2d");
+    function doit(csvpath, frase, correctID, wrongID) {
+        document.getElementById(wrongID).parentElement.setAttribute('style', 'display: none');
+        document.getElementById(correctID).parentElement.setAttribute('style', 'display: block');
+
+        const cic = document.getElementById(correctID).getContext("2d");
 
         d3.csv(csvpath, function makeChart(data) {
             // data is an array of objects where each object represents a country
