@@ -106,11 +106,11 @@
 </div> -->
 
 <div class="butt">
-    <button class="button button1" onclick="doit('bar_person_subtype.csv')">People</button>
+    <button class="button button1" onclick="doit('bar_person_subtype.csv', 'Number of of people studied by their profession')">People</button>
 </div>
 
 <div class="butt">
-    <button class="button button1" onclick="doit('chart_to_quest.csv')">Technique/genre/material</button>
+    <button class="button button1" onclick="doit('chart_to_quest.csv', 'All object types distributed per number of occurencies')">Technique/genre/material</button>
 </div>
 
 <div id="container">
@@ -120,7 +120,7 @@
 
 <script>
 
-    function doit(csvpath) {
+    function doit(csvpath, frase) {
         const cic = document.getElementById("chart").getContext("2d");
 
         d3.csv(csvpath, function makeChart(data) {
@@ -157,7 +157,7 @@
                     legend: { display: false },
                     title: {
                         display: true,
-                        text: 'Number of of people studied by their profession'
+                        text: frase
                     },
                     scales: {
                         yAxes: [
@@ -173,7 +173,7 @@
                     labels: newArrayLabel,
                     datasets: [
                         {
-                            label: "number",
+                            label: "Object subtype frequency",
                             data: newArrayData,
                             backgroundColor: ["#cc33ff","#c560e6","#c67cdf","#cb91de","#d8b5e3","#dfc5e7","#cdabd8","#b79bbf","#a69fa8","#8f8f8f"]
                         }
