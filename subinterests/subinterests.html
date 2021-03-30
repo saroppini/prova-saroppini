@@ -27,6 +27,7 @@
             justify-content: center;
             text-align: center;
             margin: auto;
+            display:inline;
         }
         .button{
             background-color: #4CAF50; /* Green */
@@ -40,6 +41,7 @@
             margin: 4px 2px;
             transition-duration: 0.4s;
             cursor: pointer;
+            display:inline;
         }
         .button1 {
             background-color: white;
@@ -107,9 +109,9 @@
 
 <div class="butt">
     <button class="button button1" onclick="doit('bar_person_subtype.csv', 'Number of of people studied by their profession', 'chart', 'myChart' )">People</button>
-</div>
 
-<div class="butt">
+    <button class="button button1" onclick="doit('chart_to_quest.csv', 'All object types distributed per number of occurencies', 'myChart', 'chart')">Technique/genre/material</button>
+
     <button class="button button1" onclick="doit('chart_to_quest.csv', 'All object types distributed per number of occurencies', 'myChart', 'chart')">Technique/genre/material</button>
 </div>
 
