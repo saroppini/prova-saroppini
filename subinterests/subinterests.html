@@ -112,7 +112,7 @@
 
     <button class="button button1" onclick="doit('chart_to_quest.csv', 'All object types distributed per number of occurencies', 'myChart', 'chart')">Technique/genre/material</button>
 
-    <button class="button button1" onclick="doit('chart_to_quest.csv', 'All object types distributed per number of occurencies', 'myChart', 'chart')">Hide</button>
+    <button class="button button1" onclick="hideGraph()">Hide</button>
 </div>
 
 <div class="container">
@@ -124,6 +124,11 @@
 </div>
 
 <script>
+    
+    function hideGraph(){
+        document.getElementById('myChart').parentElement.setAttribute('style', 'display: none');
+        document.getElementById('chart').parentElement.setAttribute('style', 'display: none');
+    }
 
     function doit(csvpath, frase, correctID, wrongID) {
         document.getElementById(wrongID).parentElement.setAttribute('style', 'display: none');
