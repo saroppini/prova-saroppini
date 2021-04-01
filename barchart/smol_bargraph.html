@@ -63,7 +63,7 @@
 </head>
 
 
-<body>
+<body onresize="beforePrintHandler()">
 
 <div id="title">Which objects are the most used for the knowledge of Renaissance?</div>
 
@@ -121,6 +121,14 @@ d3.csv("resources_for_barchart.csv", function (allObjects) {
 //https://www.chartjs.org/docs/latest/charts/bar.html
 //https://www.createwithdata.com/chartjs-and-csv/
 
+</script>
+	
+<script>
+function beforePrintHandler () {
+    for (var id in Chart.instances) {
+        Chart.instances[id].resize();
+    }
+}
 </script>
 
 </body>
