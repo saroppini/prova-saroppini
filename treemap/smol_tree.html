@@ -70,7 +70,7 @@ d3.json("file_for_tree.json", function(data) {
   // prepare a color scale
   var color = d3.scaleOrdinal()
     .domain(["Biblioteca Hertziana", "Fondazione Federico Zeri", "Getty Research Institute", "Kunsthistorisches Institut"])
-    .range([ "#402D54", "#D18975", "#8FD175", "#add8e6"])
+    .range([ "#FCCBCB", "#E8BFBF", "#D4B3B3", "#C0A7A7"])
 
   // And a opacity scale
   var opacity = d3.scaleLinear()
@@ -140,7 +140,7 @@ d3.json("file_for_tree.json", function(data) {
       .attr("x", function(d){ return d.x0+5})    // +10 to adjust position (more right)
       .attr("y", function(d){ return d.y0+35})    // +20 to adjust position (lower)
       .text(function(d){ return d.data.size })
-      .attr("font-size", "11px")
+      .attr("font-size", "13px")
       .attr("fill", "black")
       .on('mouseover', function() {
         tooltip.style('visibility', 'visible')
