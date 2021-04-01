@@ -11,15 +11,11 @@
 }
 </style>
 </head>
-<body>
+<body onresize="beforePrintHandler()">
 <div id="barchart"></div>
 
-
-<script>
-
   
-</script>
-
+<!-- window.onresize = beforePrintHandler; -->
 
 
 <div id="treemap"></div>
@@ -179,6 +175,19 @@ d3.json("file_for_tree.json", function(data) {
 
 })
 </script>
+  
+  
+  
+
+<script>
+function beforePrintHandler () {
+    for (var id in Chart.instances) {
+        Chart.instances[id].resize();
+    }
+}
+</script>  
+  
+  
 
 </body>
 </html>
