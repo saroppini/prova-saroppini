@@ -11,7 +11,7 @@
 }
 </style>
 </head>
-<body onresize="beforePrintHandler()">
+<body>
 <div id="barchart"></div>
 
   
@@ -30,11 +30,12 @@ var margin = {top: 10, right: 10, bottom: 10, left: 10},
 // append the svg object to the body of the page
 var svg = d3.select("#treemap")
 .append("svg")
-  .attr("width", width + margin.left + margin.right)
-  .attr("height", height + margin.top + margin.bottom)
+  //.attr("width", width + margin.left + margin.right)
+  //.attr("height", height + margin.top + margin.bottom)
+  .attr("viewBox", `0 0 ("width", width + margin.left + margin.right) ("height", height + margin.top + margin.bottom)`)
   .append("g")
-  .attr("transform",
-        "translate(" + margin.left + "," + margin.top + ")");
+  //.attr("transform",
+    //    "translate(" + margin.left + "," + margin.top + ")");
 
 // read json data
 d3.json("file_for_tree.json", function(data) {
