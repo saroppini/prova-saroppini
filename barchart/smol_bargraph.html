@@ -125,8 +125,8 @@ d3.csv("resources_for_barchart.csv", function (allObjects) {
 	
 <script>
 function beforePrintHandler () {
-    for (var id in Chart.instances) {
-        Chart.instances[id].resize();
+    for (var id in document.getElementById('myChart').instances) {
+        document.getElementById('myChart').instances[id].resize();
     }
 }
 </script>
