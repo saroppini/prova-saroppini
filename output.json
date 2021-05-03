@@ -1,0 +1,4084 @@
+{
+  "citations": {
+    "valid": [
+      {
+        "Valid_citing_doi": "10.1007/s11771-020-4410-2",
+        "Valid_cited_doi": "10.13745/j.esf.2016.02.011"
+      },
+      {
+        "Valid_citing_doi": "10.1007/s40617-018-00299-1",
+        "Valid_cited_doi": "10.1901/jaba.2012.45-657"
+      },
+      {
+        "Valid_citing_doi": "10.1145/3190617",
+        "Valid_cited_doi": "10.1145/2838344.2856460"
+      },
+      {
+        "Valid_citing_doi": "10.1016/j.enzmictec.2016.04.004",
+        "Valid_cited_doi": "10.15376/biores.3.3.929-980"
+      },
+      {
+        "Valid_citing_doi": "10.1016/j.jand.2015.05.019",
+        "Valid_cited_doi": "10.3109/03093649709164525"
+      },
+      {
+        "Valid_citing_doi": "10.3897/herpetozoa.32.e37094",
+        "Valid_cited_doi": "10.30906/1026-2296-2018-25-3-221-226"
+      },
+      {
+        "Valid_citing_doi": "10.1016/b978-0-323-35955-9.00017-9",
+        "Valid_cited_doi": "10.1007/s10549-015-3393-4"
+      },
+      {
+        "Valid_citing_doi": "10.1177/1542305016687581",
+        "Valid_cited_doi": "10.1080/02796015.2008.12087908"
+      },
+      {
+        "Valid_citing_doi": "10.1177/1043986211418888",
+        "Valid_cited_doi": "10.3138/9781442604001"
+      }
+    ],
+    "invalid": [
+      {
+        "Valid_citing_doi": "10.14778/1920841.1920954",
+        "Invalid_cited_doi": "10.5555/646836.708343"
+      },
+      {
+        "Valid_citing_doi": "10.5406/ethnomusicology.59.2.0202",
+        "Invalid_cited_doi": "10.2307/20184517"
+      },
+      {
+        "Valid_citing_doi": "10.1161/01.cir.63.6.1391",
+        "Invalid_cited_doi": "10.1161/circ.37.4.509"
+      },
+      {
+        "Valid_citing_doi": "10.1177/1179546820918903",
+        "Invalid_cited_doi": "10.3748/wjg.v10.i5.707."
+      },
+      {
+        "Valid_citing_doi": "10.1080/10410236.2020.1731937",
+        "Invalid_cited_doi": "10.1070/10810730903528033"
+      },
+      {
+        "Valid_citing_doi": "10.1161/strokeaha.112.652065",
+        "Invalid_cited_doi": "10.1161/str.24.7.8322400"
+      },
+      {
+        "Valid_citing_doi": "10.1177/1049732310393747",
+        "Invalid_cited_doi": "10.1111/j.545-5300.2003.42208.x"
+      },
+      {
+        "Valid_citing_doi": "10.1155/2017/1491405",
+        "Invalid_cited_doi": "10.3760/cma.j.issn.0366-6999.20131202"
+      },
+      {
+        "Valid_citing_doi": "10.1161/01.res.68.6.1549",
+        "Invalid_cited_doi": "10.1161/res.35.2.159"
+      },
+      {
+        "Valid_citing_doi": "10.4018/978-1-5225-2650-6.ch006",
+        "Invalid_cited_doi": "10.1002/per"
+      },
+      {
+        "Valid_citing_doi": "10.1145/2525314.2594229",
+        "Invalid_cited_doi": "10.5555/1873601.1873616"
+      },
+      {
+        "Valid_citing_doi": "10.1007/s10619-020-07320-z",
+        "Invalid_cited_doi": "10.3390/sym11070911www.mdpi.com/journal/symmetry"
+      },
+      {
+        "Valid_citing_doi": "10.1161/01.cir.102.5.591",
+        "Invalid_cited_doi": "10.1161/circ.85.3.1537115"
+      },
+      {
+        "Valid_citing_doi": "10.1074/jbc.m508416200",
+        "Invalid_cited_doi": "10.1059/0003-4819-100-4-483"
+      },
+      {
+        "Valid_citing_doi": "10.1177/2054358119836124",
+        "Invalid_cited_doi": "10.1016/j.amepre.2015.07.017."
+      },
+      {
+        "Valid_citing_doi": "10.1002/2014jd022782",
+        "Invalid_cited_doi": "10.1016/j.atmosenv.2008.0305"
+      }
+      ]
+  },
+"publishers": [
+{
+"name": "Acta Scientific Publications Pvt. Ltd.",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.31080"
+]
+},
+{
+"name": "Universidad Catolica de Pereira",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.31908"
+]
+},
+{
+"name": "Society for Sociological Science",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.15195"
+]
+},
+{
+"name": "Universitas 17 Agustus 1945 Samarinda",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.31293"
+]
+},
+{
+"name": "Resilience Alliance, Inc.",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 2,
+"prefix_list": [
+"10.5751"
+]
+},
+{
+"name": "University Library System, University of Pittsburgh",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 2,
+"prefix_list": [
+"10.5195"
+]
+},
+{
+"name": "Korean Ophthalmological Society",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.3341"
+]
+},
+{
+"name": "World Health Organization, Western Pacific Regional Office",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.5365"
+]
+},
+{
+"name": "Editorial de la Facultad de Filosofia y Letras - Universidad de Buenos Aires",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.34096"
+]
+},
+{
+"name": "Sun Media Bloemfontein Pty Ltd",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.18820"
+]
+},
+{
+"name": "Selcuk Dental Journal",
+"responsible_for_v": 0,
+"responsible_for_i": 2,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.15311"
+]
+},
+{
+"name": "Trinidad and Tobago Medical Association",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.48107"
+]
+},
+{
+"name": "The Charleston Co.",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.5260"
+]
+},
+{
+"name": "Institute of Mathematics, Polish Academy of Sciences",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 1,
+"receiving_i": 1,
+"prefix_list": [
+"10.4064"
+]
+},
+{
+"name": "Krasovskii Institute of Mathematics and Mechanics UB RAS",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.21538"
+]
+},
+{
+"name": "Park University",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 1,
+"receiving_i": 0,
+"prefix_list": [
+"10.46504"
+]
+},
+{
+"name": "Regional Euro-Asian Biological Invasions Centre Oy (REABIC)",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.3391"
+]
+},
+{
+"name": "Ailamazyan Program Systems Institute of Russian Academy of Sciences (PSI RAS)",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.25209"
+]
+},
+{
+"name": "Canadian Water Resources Association",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.4296"
+]
+},
+{
+"name": "International Association of Online Engineering (IAOE)",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.3991"
+]
+},
+{
+"name": "SCIK Publishing Corporation",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.28919"
+]
+},
+{
+"name": "LymphoSign Journal Limited Partnership",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.14785"
+]
+},
+{
+"name": "Laboratory Medicine Online",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.47429"
+]
+},
+{
+"name": "FSUE VNIIMS All-Russian Research Institute of Metrological Service",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 2,
+"prefix_list": [
+"10.32446"
+]
+},
+{
+"name": "BSTU named after V.G. Shukhov",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 1,
+"receiving_i": 0,
+"prefix_list": [
+"10.34031"
+]
+},
+{
+"name": "Society of Education",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 3,
+"prefix_list": [
+"10.15515"
+]
+},
+{
+"name": "Brepols Publishers NV",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.1484"
+]
+},
+{
+"name": "Universidad Cooperativa de Colombia- UCC",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 2,
+"prefix_list": [
+"10.16925"
+]
+},
+{
+"name": "Instituto de Oceanografia - FURG",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.5088"
+]
+},
+{
+"name": "Forest Products Society",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.13073"
+]
+},
+{
+"name": "Case Western Reserve University",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.20411"
+]
+},
+{
+"name": "Royal Zoological Society of New South Wales",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.7882"
+]
+},
+{
+"name": "Baikal State University",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 2,
+"prefix_list": [
+"10.17150"
+]
+},
+{
+"name": "Korea Food Service Association",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.22509"
+]
+},
+{
+"name": "Korean Classical Poetry Association",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.32428"
+]
+},
+{
+"name": "The Academy of Korean Studies",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 1,
+"receiving_i": 0,
+"prefix_list": [
+"10.25024"
+]
+},
+{
+"name": "Performance Philosophy",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.21476"
+]
+},
+{
+"name": "Athens Institute for Education and Research ATINER",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.30958"
+]
+},
+{
+"name": "SRUMB - Romanian Society for Ultrasonography in Medicine and Biology",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.11152"
+]
+},
+{
+"name": "Sociedad Colombiana de Ciencias Horticolas",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.17584"
+]
+},
+{
+"name": "Portuguese Society of Electrochemistry",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.4152"
+]
+},
+{
+"name": "Korea Employment Agency for the Disabled/Employment Development Institute",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.15707"
+]
+},
+{
+"name": "Korean Academy of Social Welfare",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.20970"
+]
+},
+{
+"name": "BioInsights Publishing, Ltd.",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.18609"
+]
+},
+{
+"name": "Steklov Mathematical Institute",
+"responsible_for_v": 1,
+"responsible_for_i": 5,
+"receiving_v": 1,
+"receiving_i": 1,
+"prefix_list": [
+"10.4213"
+]
+},
+{
+"name": "Faculty of Food and Agriculture, United Arab Emirates University",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 1,
+"receiving_i": 2,
+"prefix_list": [
+"10.9755"
+]
+},
+{
+"name": "Rutgers University - Newark School of Public Affairs and Administration",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.22140"
+]
+},
+{
+"name": "Singapore Medical Journal",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.11622"
+]
+},
+{
+"name": "Current Science Association",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 1,
+"receiving_i": 4,
+"prefix_list": [
+"10.18520"
+]
+},
+{
+"name": "Society of Wood Science and Technology",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.22382"
+]
+},
+{
+"name": "Horticultural Studies (Hortis)",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.16882"
+]
+},
+{
+"name": "West Indian Medical Journal",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 2,
+"prefix_list": [
+"10.7727"
+]
+},
+{
+"name": "International Journal of Transpersonal Studies",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.24972"
+]
+},
+{
+"name": "OAPEN Foundation",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 2,
+"receiving_i": 0,
+"prefix_list": [
+"10.26530"
+]
+},
+{
+"name": "Alphanumeric Journal",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.17093"
+]
+},
+{
+"name": "Korean Society for Atmospheric Environment",
+"responsible_for_v": 0,
+"responsible_for_i": 2,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.5572"
+]
+},
+{
+"name": "TARUS Media",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 2,
+"prefix_list": [
+"10.26574"
+]
+},
+{
+"name": "Journal of Agricultural Informatics",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.17700"
+]
+},
+{
+"name": "Ernst Reinhardt, GmbH & Co. KG",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.2378"
+]
+},
+{
+"name": "Theological Thought Institute",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.35858"
+]
+},
+{
+"name": "Center for Studies of Christian Thoughts and Culture",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.15757"
+]
+},
+{
+"name": "Boletim do Instituto de Pesca",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 1,
+"receiving_i": 1,
+"prefix_list": [
+"10.20950"
+]
+},
+{
+"name": "Pegem Akademi Yayincilik Egitim Danismanlik Hizmetleri",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.14527"
+]
+},
+{
+"name": "Staats- und Universitatsbibliothek Hamburg Carl von Ossietzky",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 1,
+"receiving_i": 0,
+"prefix_list": [
+"10.15460"
+]
+},
+{
+"name": "Sada Institute",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.7816"
+]
+},
+{
+"name": "The Japanese Coronary Association",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.7793"
+]
+},
+{
+"name": "Universitas Muhammadiyah Palangkaraya",
+"responsible_for_v": 2,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.33084"
+]
+},
+{
+"name": "Mehmet Akif Ersoy Universitesi Uygulamali Bilimler Dergisi",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.31200"
+]
+},
+{
+"name": "Fuji Technology Press Ltd.",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.20965"
+]
+},
+{
+"name": "Vidar, Ltd.",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 1,
+"receiving_i": 0,
+"prefix_list": [
+"10.24835"
+]
+},
+{
+"name": "The Modern Linguistic Society of Korea",
+"responsible_for_v": 2,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.18627"
+]
+},
+{
+"name": "Moscow Regional State University",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 1,
+"receiving_i": 0,
+"prefix_list": [
+"10.18384"
+]
+},
+{
+"name": "Foreign Studies Institute",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.15755"
+]
+},
+{
+"name": "Faculty of Physical Education and Sports, Alexandru Ioan Cuza - University of IASI, Romania",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.36836"
+]
+},
+{
+"name": "The National and University Library of Iceland",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 1,
+"receiving_i": 0,
+"prefix_list": [
+"10.33112"
+]
+},
+{
+"name": "Adhya Biosciences Pvt. Ltd.",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.21746"
+]
+},
+{
+"name": "International Journal of Kurdish Studies",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.21600"
+]
+},
+{
+"name": "Stockholm University Press",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.16993"
+]
+},
+{
+"name": "Perspectives of New Music",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.7757"
+]
+},
+{
+"name": "Opast Group LLC",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.33140"
+]
+},
+{
+"name": "Peer Community In",
+"responsible_for_v": 0,
+"responsible_for_i": 2,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.24072"
+]
+},
+{
+"name": "Ediser Srl",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.1472",
+"10.1390"
+]
+},
+{
+"name": "Korean Society of Public Health Nursing",
+"responsible_for_v": 0,
+"responsible_for_i": 2,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.5932"
+]
+},
+{
+"name": "The Association of Korean Photo-Geographers",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.35149"
+]
+},
+{
+"name": "Far Eastern Scientific Center Of Physiology and Pathology of Respiration",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.36604"
+]
+},
+{
+"name": "Korean Association for Laboratory Animal Science (KAMJE)",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.5625"
+]
+},
+{
+"name": "Novosibirsk State Technical University",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.17212"
+]
+},
+{
+"name": "International Journal of Advanced Information Science and Technology",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.15693"
+]
+},
+{
+"name": "Global Center for Japanese Studies",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.31371"
+]
+},
+{
+"name": "Croatian Interdisciplinary Society",
+"responsible_for_v": 0,
+"responsible_for_i": 3,
+"receiving_v": 0,
+"receiving_i": 2,
+"prefix_list": [
+"10.7906",
+"10.7906.indecs.16.4.3"
+]
+},
+{
+"name": "Science and Engineering Publishing Company",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.14355"
+]
+},
+{
+"name": "Institute of Electronics, Information and Communications Engineers (IEICE)",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.1587"
+]
+},
+{
+"name": "Institute Of Law Studies Pusan National University",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.35275"
+]
+},
+{
+"name": "Western North American Naturalist",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.3398"
+]
+},
+{
+"name": "Universidade Paranaense",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 2,
+"prefix_list": [
+"10.25110"
+]
+},
+{
+"name": "Frontier Research Today S A",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.31716"
+]
+},
+{
+"name": "Belgorod National Research University",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.18413"
+]
+},
+{
+"name": "Ani Publishing and Consulting Company",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.14689"
+]
+},
+{
+"name": "Vathek Publishing",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.1350"
+]
+},
+{
+"name": "Human Resources Management Academic Research Society (HRMARS)",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.6007"
+]
+},
+{
+"name": "Crustacean Society",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.1651"
+]
+},
+{
+"name": "American Society for Enology and Viticulture",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.5344"
+]
+},
+{
+"name": "The Society Of Korean Modern Literrary Criticism",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.35832"
+]
+},
+{
+"name": "Modern Korean Literature Association",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 1,
+"receiving_i": 0,
+"prefix_list": [
+"10.19050"
+]
+},
+{
+"name": "Contemporary Film Research Institute",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.15751"
+]
+},
+{
+"name": "ECORFAN",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.35429"
+]
+},
+{
+"name": "International University of Sarajevo",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 2,
+"prefix_list": [
+"10.21533"
+]
+},
+{
+"name": "Universidad Distrital Francisco Jose de Caldas",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.14483"
+]
+},
+{
+"name": "Afyon Kocatepe University",
+"responsible_for_v": 0,
+"responsible_for_i": 4,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.18229"
+]
+},
+{
+"name": "Polskie Towarzystwo Technologow Zywnosci Wydawnictwo Naukowe PTTZ",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.15193"
+]
+},
+{
+"name": "Tekstil Ve Konfeksiyon",
+"responsible_for_v": 0,
+"responsible_for_i": 2,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.32710"
+]
+},
+{
+"name": "Romanian Association of Geomorphologists",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 1,
+"receiving_i": 0,
+"prefix_list": [
+"10.21094"
+]
+},
+{
+"name": "Croatian Dairy Union",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.15567"
+]
+},
+{
+"name": "Insight Turkey/SETA Vakfi",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.25253"
+]
+},
+{
+"name": "The Korean Society for Biomedical Laboratory Sciences",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.15616"
+]
+},
+{
+"name": "The Society for the Study of Evolution",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.1554"
+]
+},
+{
+"name": "Stratejik ve Sosyal Arastirmalar Dergisi",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.30692"
+]
+},
+{
+"name": "Current Agriculture Science and Technology (CAST)",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.18539"
+]
+},
+{
+"name": "Insight Knowledge",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.5567"
+]
+},
+{
+"name": "Pamukkale Universitesi Sosyal Bilimler Enstitusu Dergisi",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.30794"
+]
+},
+{
+"name": "International Journal of Turkish Education Sciences, Gaziosmanpasa University",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.46778"
+]
+},
+{
+"name": "IP Innovative Publication Pvt Ltd",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.18231"
+]
+},
+{
+"name": "Zoological Society of Japan",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.2108"
+]
+},
+{
+"name": "Rubber Division, ACS",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.5254"
+]
+},
+{
+"name": "SF-TH, Inc.",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.5621"
+]
+},
+{
+"name": "Warsaw University of Life Sciences \u2013 SGGW Press",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.22630"
+]
+},
+{
+"name": "The British Blockchain Association",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 2,
+"prefix_list": [
+"10.31585"
+]
+},
+{
+"name": "University of Hamburg, Biodiversitat, Evolution and Okologie der Pflanzen",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.7809"
+]
+},
+{
+"name": "Universitas Galuh Ciamis",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.25157"
+]
+},
+{
+"name": "The Human Geographical Society of Japan",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.4200"
+]
+},
+{
+"name": "The Korean Society of Toxicology",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.5487"
+]
+},
+{
+"name": "Medicinos Mintis",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.15591"
+]
+},
+{
+"name": "Asia-Pacific Research Center",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.21196"
+]
+},
+{
+"name": "UK Simulation Society",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 1,
+"receiving_i": 1,
+"prefix_list": [
+"10.5013"
+]
+},
+{
+"name": "Central Marine Fisheries Research Institute, Kochi",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.21077"
+]
+},
+{
+"name": "Nipissing University Library",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.33524"
+]
+},
+{
+"name": "Lviv Polytechnic National University",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.23939"
+]
+},
+{
+"name": "International Journal of Integrated Health Sciences (IJIHS)",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.15850"
+]
+},
+{
+"name": "African Traditional Herbal Medicine Supporters Initiative (ATHMSI)",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 2,
+"prefix_list": [
+"10.21010"
+]
+},
+{
+"name": "Northwestern Naturalist",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.1898"
+]
+},
+{
+"name": "Organizacion de Estados Iberoamericanos",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.35362"
+]
+},
+{
+"name": "Dnipropetrovsk National University of Railway Transport",
+"responsible_for_v": 0,
+"responsible_for_i": 2,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.15802"
+]
+},
+{
+"name": "LLC Science and Innovations",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 1,
+"receiving_i": 1,
+"prefix_list": [
+"10.15275"
+]
+},
+{
+"name": "Centro de Investigacao e Estudos de Sociologia (CIES-IUL)",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.7458"
+]
+},
+{
+"name": "Stem Book",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.3824"
+]
+},
+{
+"name": "Korean Alliance Of Martial Arts",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.35277"
+]
+},
+{
+"name": "Servicio de Publicaciones de la Universidad Autonoma de Madrid",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.15366"
+]
+},
+{
+"name": "Korean Production And Operations Management Society",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 1,
+"receiving_i": 0,
+"prefix_list": [
+"10.21131"
+]
+},
+{
+"name": "Universitatea 1 Decembrie 1918 din Alba Iulia / 1 Decembrie 1918 University of Alba Iulia",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 1,
+"receiving_i": 0,
+"prefix_list": [
+"10.29302"
+]
+},
+{
+"name": "Japanese Society of Zoo and Wildlife Medicine",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.5686"
+]
+},
+{
+"name": "Mammalogical Society of Japan",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.3106"
+]
+},
+{
+"name": "Korean Society of Biology Education",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 1,
+"receiving_i": 0,
+"prefix_list": [
+"10.15717"
+]
+},
+{
+"name": "Brazilian Society for Computational and Applied Mathematics (SBMAC)",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.5540"
+]
+},
+{
+"name": "UP4 Institute of Sciences, S.L.",
+"responsible_for_v": 0,
+"responsible_for_i": 3,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.21042"
+]
+},
+{
+"name": "IAIN Palangka Raya",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.23971"
+]
+},
+{
+"name": "Inovatus Usluge d.o.o.",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.18775"
+]
+},
+{
+"name": "Society for Information Display",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.1889"
+]
+},
+{
+"name": "Bulletin of Marine Science",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.5343"
+]
+},
+{
+"name": "University of Sheffield Conference Proceedings",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.15445"
+]
+},
+{
+"name": "FECAP Fundacao Escola de Comercio Alvares",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.7819"
+]
+},
+{
+"name": "Oman Medical Journal",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 3,
+"prefix_list": [
+"10.5001"
+]
+},
+{
+"name": "Hikari, Ltd.",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 2,
+"prefix_list": [
+"10.12988"
+]
+},
+{
+"name": "Korea Water Resources Association",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.3741"
+]
+},
+{
+"name": "Japanese Society of Animal Reproduction",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.1262"
+]
+},
+{
+"name": "PANORAMA Publishing House",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.33920"
+]
+},
+{
+"name": "Fundacion Universitaria Sanitas",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.26852"
+]
+},
+{
+"name": "Optimum Journal of Economics and Management Sciences",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.17541"
+]
+},
+{
+"name": "European Alliance for Innovation n.o.",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 2,
+"prefix_list": [
+"10.4108"
+]
+},
+{
+"name": "Korean Association of Agricultural Medicine and Community Health",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.5393"
+]
+},
+{
+"name": "Riga Technical University",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.7250"
+]
+},
+{
+"name": "The Korea Association for Local Government and Administration Studies",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.18398"
+]
+},
+{
+"name": "Fortune Journals",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.26502"
+]
+},
+{
+"name": "International Journal of Agricultural and Biological Engineering (IJABE)",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 1,
+"receiving_i": 1,
+"prefix_list": [
+"10.25165"
+]
+},
+{
+"name": "LLC Global Media Technology",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.31146"
+]
+},
+{
+"name": "Council on Undergraduate Research",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 1,
+"receiving_i": 0,
+"prefix_list": [
+"10.18833"
+]
+},
+{
+"name": "Japan Association for Earthquake Engineering",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.5610"
+]
+},
+{
+"name": "European Association of Cardiothoracic Surgery (EACTS Publishing Ltd)",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.1510"
+]
+},
+{
+"name": "Korea Lifelong Education and HRD Institute",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.35637"
+]
+},
+{
+"name": "Hacettepe Universitesi Edebiyat Fakultesi Dergisi",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.32600"
+]
+},
+{
+"name": "Conscientia Beam",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.18488"
+]
+},
+{
+"name": "International Building Performance Simulation Association",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.26868"
+]
+},
+{
+"name": "National University of Science and Technology MISiS",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.17073"
+]
+},
+{
+"name": "American Society of Parasitologists",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 2,
+"prefix_list": [
+"10.1645"
+]
+},
+{
+"name": "Macedonian Academy of Sciences and Arts",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.20903"
+]
+},
+{
+"name": "University of Alberta Libraries",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.18438"
+]
+},
+{
+"name": "Korea Culture and Tourism Institute",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.16937"
+]
+},
+{
+"name": "Multiculture and Peace Institute",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.22446"
+]
+},
+{
+"name": "Savvy Science Publisher",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.12974"
+]
+},
+{
+"name": "Journal of Integrated Disaster Risk Management",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 1,
+"receiving_i": 0,
+"prefix_list": [
+"10.5595"
+]
+},
+{
+"name": "The Press at California State University, Fresno",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.5364"
+]
+},
+{
+"name": "Poznan University of Technology",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.21008"
+]
+},
+{
+"name": "The Korean Society of Remote Sensing",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.7780"
+]
+},
+{
+"name": "Korean Society of Pediatric Nephrology",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.3339"
+]
+},
+{
+"name": "Pediatric Neurology Briefs Publishers",
+"responsible_for_v": 0,
+"responsible_for_i": 2,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.15844"
+]
+},
+{
+"name": "Sri Lanka Journals Online (JOL)",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 2,
+"prefix_list": [
+"10.4038"
+]
+},
+{
+"name": "AMH International Conferences and Seminars Organizing LLC",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.22610"
+]
+},
+{
+"name": "Japanese Society of Tribologists",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.2474"
+]
+},
+{
+"name": "The Korean Society of Business Venturing",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.16972"
+]
+},
+{
+"name": "The Operations Research Society of Japan",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.15807"
+]
+},
+{
+"name": "American Water Works Association",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.5942"
+]
+},
+{
+"name": "Universitas Muhammadiyah Gorontalo",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.31314"
+]
+},
+{
+"name": "National Institute of Standards and Technology (NIST)",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.6028"
+]
+},
+{
+"name": "DAAAM International",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.2507"
+]
+},
+{
+"name": "Sinirsiz Egitim ve Arastirma Dergisi",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.29250"
+]
+},
+{
+"name": "Revista Dissertatio de Filosofia",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.22166"
+]
+},
+{
+"name": "Korean Society for Molecular and Cellular Biology",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.14348"
+]
+},
+{
+"name": "OAE Publishing Inc.",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 1,
+"receiving_i": 0,
+"prefix_list": [
+"10.20517"
+]
+},
+{
+"name": "Salesian Polytechnic University of Ecuador",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.17163"
+]
+},
+{
+"name": "British Academy",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.5871"
+]
+},
+{
+"name": "Czech Geographical Society",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.37040"
+]
+},
+{
+"name": "Center for Pulp and Paper",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.25269"
+]
+},
+{
+"name": "Cleveland Clinic Journal of Medicine",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.3949"
+]
+},
+{
+"name": "World Resources Institute",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 1,
+"receiving_i": 0,
+"prefix_list": [
+"10.46830"
+]
+},
+{
+"name": "Tambov State Technical University",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.17277"
+]
+},
+{
+"name": "The Korean Society of Climate Change Research",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.15531"
+]
+},
+{
+"name": "Society for Biomedical Diabetes Research (SBDR)",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.1900"
+]
+},
+{
+"name": "University of Engineering and Technology, Peshawar",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.25211"
+]
+},
+{
+"name": "Japanese Society for Horticultural Science",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.2503."
+]
+},
+{
+"name": "Society for the Advancement of Horticulture",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.37855"
+]
+},
+{
+"name": "Scientific and Technological Center of Unique Instrumentation of RAS",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.25210"
+]
+},
+{
+"name": "Korean Association for Social Welfare Studies",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.16999"
+]
+},
+{
+"name": "Kirikkale Universitesi T\u0131p Fakultesi Dergisi",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.24938"
+]
+},
+{
+"name": "Desalination Publications",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.5004"
+]
+},
+{
+"name": "Turkiye Jeoloji Bulteni",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.25288"
+]
+},
+{
+"name": "HUFS Law Research Institute",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.17257"
+]
+},
+{
+"name": "Honam Institute of Humanities and Social Sciences",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.17939"
+]
+},
+{
+"name": "International Cardiovascular Forum Journal",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.17987"
+]
+},
+{
+"name": "Danylo Halytskyi Lviv National Medical University",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.25040"
+]
+},
+{
+"name": "Institute of Economics of the Ural Branch of the RAS",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.17059"
+]
+},
+{
+"name": "Cartography and Geographic Information Society (CaGIS)",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.1559"
+]
+},
+{
+"name": "Wyzsza Szkola Logistyki (Poznan School of Logistics)",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.17270"
+]
+},
+{
+"name": "The Korean Society of Physical Medicine",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.13066"
+]
+},
+{
+"name": "Svenska Arkeologiska Samfundet",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.37718"
+]
+},
+{
+"name": "Kocaeli Universitesi Egitim Dergisi",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.33400"
+]
+},
+{
+"name": "Zeppelini Editorial e Comunicacao",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.5327"
+]
+},
+{
+"name": "Korean Oncology Nursing Society",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.5388"
+]
+},
+{
+"name": "The Korean Society of Hematology",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.5045"
+]
+},
+{
+"name": "Journal of Energy Systems",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.30521"
+]
+},
+{
+"name": "Japan Society for Aeronautical and Space Sciences",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 2,
+"prefix_list": [
+"10.2322"
+]
+},
+{
+"name": "The Minerals, Metals and Materials Society",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.7449"
+]
+},
+{
+"name": "Universidad del Magdalena",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.21676"
+]
+},
+{
+"name": "Korean Association of Southeast Asian Studies",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.21652"
+]
+},
+{
+"name": "State Islamic College of Kudus",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.21043"
+]
+},
+{
+"name": "Chonnam National University Medical School",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.4068"
+]
+},
+{
+"name": "LLC Polyforum Group",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.18692"
+]
+},
+{
+"name": "Cordoba University Press (UCOPress)",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.21071"
+]
+},
+{
+"name": "The Korean Society of Bilingualism",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.17296"
+]
+},
+{
+"name": "Universitas Sumatera Utara",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.32734"
+]
+},
+{
+"name": "Moscow Regional Research and Clinical Institute (MONIKI)",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.18786"
+]
+},
+{
+"name": "The Korean Society of Design Culture",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.18208"
+]
+},
+{
+"name": "Malaysian Society of Soil Science",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.37799"
+]
+},
+{
+"name": "Russian Geographical Society",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.24057"
+]
+},
+{
+"name": "International Journal for Innovation Education and Research",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 1,
+"receiving_i": 0,
+"prefix_list": [
+"10.31686"
+]
+},
+{
+"name": "American Society for Photogrammetry and Remote Sensing",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.14358"
+]
+},
+{
+"name": "National Science Teachers Association (NSTA)",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.2505"
+]
+},
+{
+"name": "Centro Universitario La Salle - UNILASALLE",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.18316"
+]
+},
+{
+"name": "Georgia Southern University",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.20429"
+]
+},
+{
+"name": "International Journal of Intelligent Systems and Applications in Engineering",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 2,
+"prefix_list": [
+"10.18201"
+]
+},
+{
+"name": "Badan Perencananaan Pembangunan Daerah Penelitian dan Pengembangan Kabupaten Sragen",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.32630"
+]
+},
+{
+"name": "International Pharmaceutical Federation (FIP)",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.46542"
+]
+},
+{
+"name": "TAPPI",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.32964"
+]
+},
+{
+"name": "The Korean Society for Livestock Housing and Environment",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.11109"
+]
+},
+{
+"name": "International Hellenic University",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.25103"
+]
+},
+{
+"name": "Gavin Publishers",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.29011"
+]
+},
+{
+"name": "The Econometric Society",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.3982"
+]
+},
+{
+"name": "Forestist",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.17099"
+]
+},
+{
+"name": "Agricultural Faculty, Syiah Kuala University",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.17969"
+]
+},
+{
+"name": "Korean Breast Cancer Society",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 2,
+"prefix_list": [
+"10.4048"
+]
+},
+{
+"name": "The Oceanography Society",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.5670"
+]
+},
+{
+"name": "Advances in Hospitality and Tourism Research",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.30519"
+]
+},
+{
+"name": "The Society for History of Education",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.18105"
+]
+},
+{
+"name": "International Journal of Contemporary Tourism Research",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.30625"
+]
+},
+{
+"name": "Institute for Mediterranean Studies",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.18218"
+]
+},
+{
+"name": "Moscow State University of Civil Engineering",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.22227"
+]
+},
+{
+"name": "IBM",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.1147"
+]
+},
+{
+"name": "University of Lincoln, School of Film and Media and Changer Agency",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.17349"
+]
+},
+{
+"name": "Institute of Governmental Studies",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.19067"
+]
+},
+{
+"name": "University of New South Wales",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.31646"
+]
+},
+{
+"name": "Psi Chi, the International Honor Society in Psychology",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.24839"
+]
+},
+{
+"name": "Universidad Autonoma del Caribe",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.15665"
+]
+},
+{
+"name": "Korean Society of Exercise Physiology",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.15857"
+]
+},
+{
+"name": "Centro de Estudios e Investigaciones para el Desarrollo Docente - CENID",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.23913"
+]
+},
+{
+"name": "Division of International Special Education and Services (DISES)",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 2,
+"prefix_list": [
+"10.9782-8317-0633-5",
+"10.9782"
+]
+},
+{
+"name": "SHEI Pryazovskyi State Technical University",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.31498"
+]
+},
+{
+"name": "Society for Social Work and Research, Inc.",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.5243"
+]
+},
+{
+"name": "Instituto de Botanica Darwinion (IBODA)",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.14522"
+]
+},
+{
+"name": "The Society of Naval Architects and Marine Engineers",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 1,
+"receiving_i": 0,
+"prefix_list": [
+"10.5957"
+]
+},
+{
+"name": "Telecommunications Association Inc.",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.18080"
+]
+},
+{
+"name": "International Journal of Mathematical, Engineering and Management Sciences plus Mangey Ram",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.33889"
+]
+},
+{
+"name": "Japanese Society for Hygiene",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.1265"
+]
+},
+{
+"name": "Atlantic Geology",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.4138"
+]
+},
+{
+"name": "Australian Journal of Information Systems",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.3127"
+]
+},
+{
+"name": "Medwell Publications",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 2,
+"prefix_list": [
+"10.36478"
+]
+},
+{
+"name": "Japan Academy",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.2183"
+]
+},
+{
+"name": "Universitas Negeri Yogyakarta",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.21831"
+]
+},
+{
+"name": "CILIP Information Literacy Group",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.11645"
+]
+},
+{
+"name": "Chinese Journal of Cancer Research",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.21147"
+]
+},
+{
+"name": "University of Ljubljana, Faculty of Arts",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.4312"
+]
+},
+{
+"name": "Textile Bioengineering and Informatics Society",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.3993"
+]
+},
+{
+"name": "The Korean Academy of Preventive Dentistry and Oral Health",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.11149"
+]
+},
+{
+"name": "R&S - Research Studies Anatolia Journal",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.33723"
+]
+},
+{
+"name": "Negah Scientific Publisher",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.32598"
+]
+},
+{
+"name": "International Journal of Pure and Applied Sciences",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.29132"
+]
+},
+{
+"name": "Banco de Mexico",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 1,
+"receiving_i": 0,
+"prefix_list": [
+"10.36095"
+]
+},
+{
+"name": "Universitas Islam Negeri Alauddin Makassar",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.24252"
+]
+},
+{
+"name": "The Incheon Institute",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.34165"
+]
+},
+{
+"name": "BioExcel",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.7573"
+]
+},
+{
+"name": "SEO/BirdLife",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.31170"
+]
+},
+{
+"name": "American Academy of Audiology",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.3766"
+]
+},
+{
+"name": "Universitas Indonesia, Directorate of Research and Public Service",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.7454"
+]
+},
+{
+"name": "University of Debrecen/ Debreceni Egyetem",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.14413"
+]
+},
+{
+"name": "Coastal Education and Research Foundation",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.2112"
+]
+},
+{
+"name": "International Federation of Infection Control",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.3396"
+]
+},
+{
+"name": "Ceramic Society of Japan",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.2109"
+]
+},
+{
+"name": "Universidad Industrial de Santander",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.18273"
+]
+},
+{
+"name": "Universitas PGRI Semarang",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.26877"
+]
+},
+{
+"name": "Faculty of Food Technology and Biotechnology - University of Zagreb",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.17113"
+]
+},
+{
+"name": "Borderless Science Publishing",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.13179"
+]
+},
+{
+"name": "American Association for Agricultural Education",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.5032"
+]
+},
+{
+"name": "Revista Pontos de Interrogacao",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.30620"
+]
+},
+{
+"name": "Academic Star Publishing Company",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.15341"
+]
+},
+{
+"name": "ANU Press",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.22459"
+]
+},
+{
+"name": "Claremont Colleges Library",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.5642"
+]
+},
+{
+"name": "Uniwersytetu Marii Curie-Sklodowskiej w Lublinie",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.17951"
+]
+},
+{
+"name": "Elementary Education Research Institute",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.20972"
+]
+},
+{
+"name": "Adnan Menderes Universitesi Saglik Bilimleri Fakultesi Dergisi",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.46237"
+]
+},
+{
+"name": "Yorum-Yonetim-Yontem Uluslararasi Yonetim-Ekonomi ve Felsefe Dergisi",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.32705"
+]
+},
+{
+"name": "Summa Psicologica UST",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.18774"
+]
+},
+{
+"name": "Journal of International Agricultural and Extension Education",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.5191"
+]
+},
+{
+"name": "Scitepress",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.5220"
+]
+},
+{
+"name": "Fujita Medical Society",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.20407"
+]
+},
+{
+"name": "Korean Society of Steel Construction",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.7781"
+]
+},
+{
+"name": "International Association for Sharing Knowledge and Sustainability",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.5383"
+]
+},
+{
+"name": "SComS",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 1,
+"receiving_i": 0,
+"prefix_list": [
+"10.24434"
+]
+},
+{
+"name": "Faculty of Education and Teacher Training, Jambi University",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.22437"
+]
+},
+{
+"name": "Dustri-Verlgag Dr. Karl Feistle",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.5414"
+]
+},
+{
+"name": "Private Company Technology Center",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.15587"
+]
+},
+{
+"name": "Odessa National Academy of Food Technologies",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.15673"
+]
+},
+{
+"name": "IUMS Press",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.34171"
+]
+},
+{
+"name": "Faculty Opinions Ltd",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.3410"
+]
+},
+{
+"name": "Universitas Jenderal Soedirman",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.20884"
+]
+},
+{
+"name": "Aequitas Publishing",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.4059"
+]
+},
+{
+"name": "Science Target, Inc.",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.24102"
+]
+},
+{
+"name": "Anadolu Ogretmen Dergisi",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.35346"
+]
+},
+{
+"name": "Geophysical Center of the Russian Academy of Sciences",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.2205"
+]
+},
+{
+"name": "NeuroQuantology Journal",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.14704"
+]
+},
+{
+"name": "Universidad de San Buenaventura",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.21500"
+]
+},
+{
+"name": "Teknik Bilimler Dergisi",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.35354"
+]
+},
+{
+"name": "Universitas Negeri Semarang",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 2,
+"prefix_list": [
+"10.15294"
+]
+},
+{
+"name": "Kahramanmaras Sutcu Imam Universitesi Tip Fakultesi Dergisi",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.17517"
+]
+},
+{
+"name": "Faculty of Agrobiotechnical Sciences Osijek",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.18047"
+]
+},
+{
+"name": "Marin Dracea National Research-Development Institute in Forestry",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.15287"
+]
+},
+{
+"name": "Mediterranean Journal of Chemistry",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.13171"
+]
+},
+{
+"name": "Universidad de Malaga",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.5231"
+]
+},
+{
+"name": "Police Science Institute in Korean National Police University",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.35147"
+]
+},
+{
+"name": "NII KPSSZ",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.17802"
+]
+},
+{
+"name": "Modestum Publishing Ltd",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.29333"
+]
+},
+{
+"name": "Middle Black Sea Journal of Health Science",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.19127"
+]
+},
+{
+"name": "Mantar Dergisi",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.30708"
+]
+},
+{
+"name": "Yonsei University College of Medicine",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 2,
+"prefix_list": [
+"10.3349"
+]
+},
+{
+"name": "Nevsehir Bilim ve Teknoloji Dergisi",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.17100"
+]
+},
+{
+"name": "IUPUI University Library",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.18060"
+]
+},
+{
+"name": "Japan Society of Plasma Science and Nuclear Fusion Research",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.1585"
+]
+},
+{
+"name": "The Korean Society for Noise and Vibration Engineering",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.5050"
+]
+},
+{
+"name": "Institute of Korean Electrical and Electronics Engineers",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.7471"
+]
+},
+{
+"name": "Botanical Research Institute of Texas",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.17348"
+]
+},
+{
+"name": "Kyung Hee University Management Research Institute",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.18014"
+]
+},
+{
+"name": "University of Economics in Katowice",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.22367"
+]
+},
+{
+"name": "European Scientific Institute, ESI",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.19044"
+]
+},
+{
+"name": "The Royal Society of Tasmania",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 1,
+"receiving_i": 0,
+"prefix_list": [
+"10.26749"
+]
+},
+{
+"name": "Carleton University",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.22215"
+]
+},
+{
+"name": "Physical Education Pedagogues Association, Ljubuski",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.51371"
+]
+},
+{
+"name": "Korean Society for Journalism and Communication Studies",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.20879"
+]
+},
+{
+"name": "Farmarus Print Media",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.36691"
+]
+},
+{
+"name": "Journal of Thermal Engineering",
+"responsible_for_v": 1,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.18186"
+]
+},
+{
+"name": "College of Physicians and Surgeons Pakistan",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.29271"
+]
+},
+{
+"name": "Kare Publishing",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.14744"
+]
+},
+{
+"name": "Stanford University Press",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.11126"
+]
+},
+{
+"name": "Turkish Psychological Counseling and Guidance Journal",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.17066"
+]
+},
+{
+"name": "Rostov State Medical University",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.21886"
+]
+},
+{
+"name": "CAPES",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.21713"
+]
+},
+{
+"name": "Universitas Muhammadiyah Malang",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.22219"
+]
+},
+{
+"name": "The Korean Academy of Family Medicine",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.4082"
+]
+},
+{
+"name": "Selcuk Universitesi Sosyal Bilimler Meslek Yuksekokulu Dergisi",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.29249"
+]
+},
+{
+"name": "Journal of Great Lakes Research",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.3394"
+]
+},
+{
+"name": "Austrian Statistical Society",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.17713"
+]
+},
+{
+"name": "EARLI",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.14786"
+]
+},
+{
+"name": "Taiwanese Society of Biomedical Engineering",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.5405"
+]
+},
+{
+"name": "Korean Association Of Tax and Accounting",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.35349"
+]
+},
+{
+"name": "American Society of Plant Taxonomists",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.1600"
+]
+},
+{
+"name": "Asociacion Espanola de Fitosociologia (AEFA)",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.5616"
+]
+},
+{
+"name": "Korean Neuropsychiatric Association",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.4306"
+]
+},
+{
+"name": "Korean Elementary Moral Education Society",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.17282"
+]
+},
+{
+"name": "Bulletin of Economic Theory and Analysis",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.25229"
+]
+},
+{
+"name": "Society for Learning Analytics Research",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 1,
+"receiving_i": 0,
+"prefix_list": [
+"10.18608"
+]
+},
+{
+"name": "International Centre for Applied Thermodynamics (ICAT)",
+"responsible_for_v": 0,
+"responsible_for_i": 1,
+"receiving_v": 0,
+"receiving_i": 0,
+"prefix_list": [
+"10.5541"
+]
+},
+{
+"name": "Institute of Earth's Crust, Siberian Branch of the Russian Academy of Sciences",
+"responsible_for_v": 0,
+"responsible_for_i": 0,
+"receiving_v": 0,
+"receiving_i": 1,
+"prefix_list": [
+"10.5800"
+]
+}
+],
+"total_num_of_valid_citations": 10152
+}

@@ -1,0 +1,57 @@
+{
+  "total_number_of_corrected_doi": 6789,
+  "citations": {
+    "valid": [
+      {
+        "citing": "1222.34/8926212",
+        "cited": "10.1093/ajae/aaq063"
+      },
+      {
+        "citing": "8922.34/ajdjeiw89",
+        "cited": "10.2222/ajae/aaqsss3"
+      }
+    ],
+    "invalid": [
+      {
+        "citing": "10.1371/journal.pgen.1001111",
+        "cited": "10.155551/jcwdhcbuy111"
+      },
+      {
+        "citing": "89555/xjw54mwfjkvh",
+        "cited": "10.999/cwdjbwui"
+      }
+    ]
+  },
+  "publishers": {
+    "Zanichelli": {
+      "name": "Zanichelli",
+      "responsible_for_i": 900,
+      "responsible_for_v": 800,
+      "receiving_i": 12,
+      "receiving_v": 3,
+      "list_of_prefixes": [
+        "123.456", "789.111", "222.333"
+      ]
+    },
+    "Einaudi": {
+      "name": "Einaudi",
+      "responsible_for_i": 300,
+      "responsible_for_v": 450,
+      "receiving_i": 221,
+      "receiving_v": 173,
+      "list_of_prefixes": [
+        "777.888", "555.211", "422.3663"
+      ]
+    },
+    "PippoEditions": {
+      "name": "PippoEditions",
+      "responsible_for_i": 98,
+      "responsible_for_v": 358,
+      "receiving_i": 94,
+      "receiving_v": 13,
+      "list_of_prefixes": [
+        "991.8834", "435.655", "666.666"
+      ]
+    }
+  }
+}

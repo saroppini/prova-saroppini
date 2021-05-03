@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>open science course</title>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <style>
+        #input-p, #input-pp {
+            background-image: url('data:image/png;base64,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');
+            background-position: 5px center;
+            background-size: 1.7em;
+            background-repeat: no-repeat;
+            margin: auto;
+            display: flow-root;
+            width:70vw;
+            font-size: 16px;
+            padding: 12px 20px 12px 40px;
+            border: 1px solid #ddd;
+            box-shadow: 1px 1px 10px #dfdfdf;
+        }
+
+        div#scroll, div#scroll-cited {
+            margin: auto;
+            overflow-y:scroll;
+            width:70vw;
+            height:40vh;
+            box-shadow: 1px 1px 10px #dfdfdf;
+            /*border-radius: 7px;*/
+        }
+
+        div#bar-citing, div#bar-cited {
+            width: fit-content;
+            margin: 50px auto;
+        }
+
+        /* SI VEDE UN PO' SOPRA LE SCRITTE CHE SCORRONO
+        #tab_citing th {
+            position: sticky;
+            top: 0;
+        }
+        */
+
+        svg {
+            font: 10px sans-serif;
+            shape-rendering: crispEdges;
+        }
+
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: #000;
+        }
+
+        path.domain {
+            stroke: none;
+        }
+
+        .y .tick line {
+            stroke: #ddd;
+        }
+
+    </style>
+</head>
+<body>
+
+<input type="text" id="input-p" onkeyup="searchPublisher()" placeholder="Search for publishers.." title="Type in a name">
+
+<div id="scroll">
+    <table id="tab_citing" class="table">
+        <tr>
+            <th>publisher</th>
+            <th>invalid citing</th>
+            <th>valid citing</th>
+            <th>total citing</th>
+        </tr>
+    </table>
+</div>
+
+<div id="bar-citing"></div>
+
+<script type="text/javascript">
+
+var data = jQuery.getJSON('output_read_only_new.json', function(json) {
+    var keys = [];
+
+    var array_of_dict = []; //data structure for the bar graph
+
+    for (var p in json["publishers"]){ // p è una stringa di un numero
+        keys.push([json["publishers"][parseInt(p)]["name"], parseInt(p)]); //p["name"] ? per metterli in ordine alfabetico -- p["name"] è undefined
+    }
+
+    var sortedKeys = keys.sort(function (a,b) {
+        if (a[0] < b[0]) return -1;
+        if (a[0] > b[0]) return 1;
+        return 0;
+    });
+
+    for(var pub of sortedKeys){
+        // console.log(pub);
+        var name = pub[0];
+        var invalid_citing = json["publishers"][pub[1]]["responsible_for_i"];
+        var valid_citing= json["publishers"][pub[1]]["responsible_for_v"];
+        var table = document.getElementById("tab_citing");
+
+        // console.log(invalid_citing);
+
+        var row = table.insertRow(-1);
+        row.insertCell(0).innerHTML = name;
+        row.insertCell(1).innerHTML = invalid_citing;
+        row.insertCell(2).innerHTML = valid_citing;
+        row.insertCell(3).innerHTML = invalid_citing+valid_citing;
+
+        // has to be 19 in the real world
+        if (array_of_dict.length <= 19) {
+            array_of_dict.push({
+                "publisher": name,
+                "invalid_citing": invalid_citing,
+                "valid_citing": valid_citing,
+                "total": invalid_citing+valid_citing
+            });
+
+        }
+        else {
+            var pos = 0;
+            var smallest = array_of_dict[0]["total"];
+            for (d of array_of_dict) {
+                if (d["total"] < smallest) {
+                    smallest = d['total'];
+                    pos = array_of_dict.indexOf(d);
+                }
+            }
+            if (invalid_citing+valid_citing > smallest) {
+                array_of_dict[pos]["publisher"] = name;
+                array_of_dict[pos]["invalid_citing"] = invalid_citing;
+                array_of_dict[pos]["valid_citing"] = valid_citing;
+                array_of_dict[pos]["total"] = invalid_citing+valid_citing;
+            }
+
+        }
+
+    } // si chiude il for loop
+
+    // sort array of dict in ordine decrescente
+    array_of_dict.sort(function(a,b) {
+        return b.total - a.total
+    });
+
+
+
+
+
+    // bar chart
+    var margin = {top: 20, right: 160, bottom: 35, left: 30};
+    var width = 960 - margin.left - margin.right,
+        height = 500 - margin.top - margin.bottom;
+
+    var svg = d3.select("#bar-citing")
+        .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+    // Transpose the data into layers
+    var dataset = d3.layout.stack()(["invalid_citing", "valid_citing"].map(function(total) {
+        return array_of_dict.map(function(d) {
+            return {x: d["publisher"], y: +d[total]};
+        });
+    }));
+
+    // Set x, y and colors
+    var x = d3.scale.ordinal()
+        .domain(dataset[0].map(function(d) { return d.x; }))
+        .rangeRoundBands([10, width-10], 0.02);
+
+    var y = d3.scale.linear()
+        .domain([0, d3.max(dataset, function(d) {  return d3.max(d, function(d) { return d.y0 + d.y; });  })])
+        .range([height, 0]);
+
+    var colors = ["#b33040", "#d9d574"];
+
+
+    // Define and draw axes
+    var yAxis = d3.svg.axis()
+        .scale(y)
+        .orient("left")
+        .ticks(5)
+        .tickSize(-width, 0, 0)
+        .tickFormat( function(d) { return d } );
+
+    var xAxis = d3.svg.axis()
+        .scale(x)
+        .orient("bottom");
+
+    svg.append("g")
+        .attr("class", "y axis")
+        .call(yAxis);
+
+    svg.append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(xAxis);
+
+
+    // Create groups for each series, rects for each segment
+    var groups = svg.selectAll("g.cost")
+        .data(dataset)
+        .enter().append("g")
+        .attr("class", "cost")
+        .style("fill", function(d, i) { return colors[i]; });
+
+
+    var rect = groups.selectAll("rect")
+        .data(function(d) { return d; })
+        .enter()
+        .append("rect")
+        .attr("x", function(d) { return x(d.x); })
+        .attr("y", function(d) { return y(d.y0 + d.y); })
+        .attr("height", function(d) { return y(d.y0) - y(d.y0 + d.y); })
+        .attr("width", x.rangeBand())
+        .on("mouseover", function() { tooltip.style("display", null); })
+        .on("mouseout", function() { tooltip.style("display", "none"); })
+        .on("mousemove", function(d) {
+            var xPosition = d3.mouse(this)[0] - 15;
+            var yPosition = d3.mouse(this)[1] - 25;
+            tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+            tooltip.select("text").text(d.y);
+            console.log(tooltip.style("display"))
+        });
+
+
+    // Prep the tooltip bits, initial display is hidden
+    var tooltip = svg.append("g")
+        .attr("class", "tooltip")
+        .style("display", "none");
+
+    tooltip.append("rect")
+        .attr("width", 30)
+        .attr("height", 20)
+        .attr("fill", "white")
+        .style("opacity", 0.5);
+
+    tooltip.append("text")
+        .attr("x", 15)
+        .attr("dy", "1.2em")
+        .style("text-anchor", "middle")
+        .attr("font-size", "12px")
+        .attr("font-weight", "bold");
+
+
+
+    // Draw legend
+    var legend = svg.selectAll(".legend")
+        .data(colors)
+        .enter().append("g")
+        .attr("class", "legend")
+        .attr("transform", function(d, i) { return "translate(30," + i * 19 + ")"; });
+
+    legend.append("rect")
+        .attr("x", width - 18)
+        .attr("width", 18)
+        .attr("height", 18)
+        .style("fill", function(d, i) {return colors.slice().reverse()[i];});
+
+    legend.append("text")
+        .attr("x", width + 5)
+        .attr("y", 9)
+        .attr("dy", ".35em")
+        .style("text-anchor", "start")
+        .text(function(d, i) {
+            switch (i) {
+                case 0: return "valid citing";
+                case 1: return "invalid citing";
+            }
+        });
+
+});
+
+
+// search bar
+
+function searchPublisher() {
+    var input, filter, table, tr, td, i, txtValue;
+    input = document.getElementById("input-p");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("tab_citing");
+    tr = table.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[0];
+        if (td) {
+            txtValue = td.textContent || td.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+            } else {
+                tr[i].style.display = "none";
+            }
+        }
+    }
+}
+
+</script>
+
+
+
+
+
+
+<input type="text" id="input-pp" onkeyup="searchPublisher()" placeholder="Search for publishers.." title="Type in a name">
+
+<div id="scroll-cited">
+    <table id="tab_cited" class="table">
+        <tr>
+            <th>publisher</th>
+            <th>invalid cited</th>
+            <th>valid cited</th>
+            <th>total cited</th>
+        </tr>
+    </table>
+</div>
+
+<!-- <div id="bar-cited"></div> -->
+
+<div id="container-chartjs-cited">
+    <canvas id="bar-chartjs-cited" style="width: 90vw !important;"></canvas>
+</div>
+
+<script type="text/javascript">
+
+var data = jQuery.getJSON('output_read_only_new.json', function(json) {
+    var keys = [];
+
+    var array_of_dict = []; //data structure for the bar graph
+
+    for (var p in json["publishers"]){ // p è una stringa di un numero
+        keys.push([json["publishers"][parseInt(p)]["name"], parseInt(p)]); //p["name"] ? per metterli in ordine alfabetico -- p["name"] è undefined
+    }
+
+    var sortedKeys = keys.sort(function (a,b) {
+        if (a[0] < b[0]) return -1;
+        if (a[0] > b[0]) return 1;
+        return 0;
+    });
+
+    for(var pub of sortedKeys){
+        // console.log(pub);
+        var name = pub[0];
+        var invalid_cited = json["publishers"][pub[1]]["receiving_i"];
+        var valid_cited = json["publishers"][pub[1]]["receiving_v"];
+        var table = document.getElementById("tab_cited");
+
+        var row = table.insertRow(-1);
+        row.insertCell(0).innerHTML = name;
+        row.insertCell(1).innerHTML = invalid_cited;
+        row.insertCell(2).innerHTML = valid_cited;
+        row.insertCell(3).innerHTML = invalid_cited+valid_cited;
+
+        // has to be 19 in the real world
+        if (array_of_dict.length <= 19) {
+            array_of_dict.push({
+                "publisher": name,
+                "invalid_cited": invalid_cited,
+                "valid_cited": valid_cited,
+                "total": invalid_cited+valid_cited
+            });
+
+        }
+        else {
+            var pos = 0;
+            var smallest = array_of_dict[0]["total"];
+            for (d of array_of_dict) {
+                if (d["total"] < smallest) {
+                    smallest = d['total'];
+                    pos = array_of_dict.indexOf(d);
+                }
+            }
+            if (invalid_cited+valid_cited > smallest) {
+                array_of_dict[pos]["publisher"] = name;
+                array_of_dict[pos]["invalid_cited"] = invalid_cited;
+                array_of_dict[pos]["valid_cited"] = valid_cited;
+                array_of_dict[pos]["total"] = invalid_cited+valid_cited;
+            }
+
+        }
+
+    } // si chiude il for loop
+
+    // sort array of dict in ordine decrescente
+    array_of_dict.sort(function(a,b) {
+        return b.total - a.total
+    });
+
+
+
+
+
+/*    // bar chart
+    var margin = {top: 20, right: 160, bottom: 35, left: 30};
+    var width = 960 - margin.left - margin.right,
+        height = 500 - margin.top - margin.bottom;
+
+    var svg = d3.select("#bar-cited")
+        .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+    // Transpose the data into layers
+    var dataset = d3.layout.stack()(["invalid_cited", "valid_cited"].map(function(total) {
+        return array_of_dict.map(function(d) {
+            return {x: d["publisher"], y: +d[total]};
+        });
+    }));
+
+    // Set x, y and colors
+    var x = d3.scale.ordinal()
+        .domain(dataset[0].map(function(d) { return d.x; }))
+        .rangeRoundBands([10, width-10], 0.02);
+
+    var y = d3.scale.linear()
+        .domain([0, d3.max(dataset, function(d) {  return d3.max(d, function(d) { return d.y0 + d.y; });  })])
+        .range([height, 0]);
+
+    var colors = ["#3041b3", "#63DE21"];
+
+
+    // Define and draw axes
+    var yAxis = d3.svg.axis()
+        .scale(y)
+        .orient("left")
+        .ticks(5)
+        .tickSize(-width, 0, 0)
+        .tickFormat( function(d) { return d } );
+
+    var xAxis = d3.svg.axis()
+        .scale(x)
+        .orient("bottom");
+
+    svg.append("g")
+        .attr("class", "y axis")
+        .call(yAxis);
+
+    svg.append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(xAxis);
+
+
+    // Create groups for each series, rects for each segment
+    var groups = svg.selectAll("g.cost")
+        .data(dataset)
+        .enter().append("g")
+        .attr("class", "cost")
+        .style("fill", function(d, i) { return colors[i]; });
+
+
+    var rect = groups.selectAll("rect")
+        .data(function(d) { return d; })
+        .enter()
+        .append("rect")
+        .attr("x", function(d) { return x(d.x); })
+        .attr("y", function(d) { return y(d.y0 + d.y); })
+        .attr("height", function(d) { return y(d.y0) - y(d.y0 + d.y); })
+        .attr("width", x.rangeBand())
+        .on("mouseover", function() { tooltip.style("display", null); })
+        .on("mouseout", function() { tooltip.style("display", "none"); })
+        .on("mousemove", function(d) {
+            var xPosition = d3.mouse(this)[0] - 15;
+            var yPosition = d3.mouse(this)[1] - 25;
+            tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+            tooltip.select("text").text(d.y);
+            console.log(tooltip.style("display"))
+        });
+
+
+    // Prep the tooltip bits, initial display is hidden
+    var tooltip = svg.append("g")
+        .attr("class", "tooltip")
+        .style("display", "none");
+
+    tooltip.append("rect")
+        .attr("width", 30)
+        .attr("height", 20)
+        .attr("fill", "white")
+        .style("opacity", 0.5);
+
+    tooltip.append("text")
+        .attr("x", 15)
+        .attr("dy", "1.2em")
+        .style("text-anchor", "middle")
+        .attr("font-size", "12px")
+        .attr("font-weight", "bold");
+
+
+
+    // Draw legend
+    var legend = svg.selectAll(".legend")
+        .data(colors)
+        .enter().append("g")
+        .attr("class", "legend")
+        .attr("transform", function(d, i) { return "translate(30," + i * 19 + ")"; });
+
+    legend.append("rect")
+        .attr("x", width - 18)
+        .attr("width", 18)
+        .attr("height", 18)
+        .style("fill", function(d, i) {return colors.slice().reverse()[i];});
+
+    legend.append("text")
+        .attr("x", width + 5)
+        .attr("y", 9)
+        .attr("dy", ".35em")
+        .style("text-anchor", "start")
+        .text(function(d, i) {
+            switch (i) {
+                case 0: return "valid cited";
+                case 1: return "invalid cited";
+            }
+        });*/
+
+
+
+
+    const ctx = document.getElementById("bar-chartjs-cited").getContext("2d");
+
+    var valid_cit = array_of_dict.map(function (d) {
+        return d.valid_cited;
+    });
+
+    var invalid_cit = array_of_dict.map(function (d) {
+        return d.invalid_cited;
+    });
+
+    var pubs = array_of_dict.map(function (d) {
+        return d.publisher;
+    });
+
+
+    var stackedChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: pubs,
+            datasets: [
+                {
+                    label: 'invalid cited',
+                    data: invalid_cit,
+                    backgroundColor: '#4b74c6' // yellow
+                },
+                {
+                    label: 'valid cited', //per noi è invalid o valid
+                    data: valid_cit, // per noi è il numero, cioè il valore di valid o invalid
+                    backgroundColor: '#031d7a' // green
+                }
+
+            ],
+
+        },
+        options: {
+            responsive: true,
+            scales: {
+                xAxes: [{
+                    stacked: true,
+                    ticks: {
+                        autoSkip: false
+                    }
+                }],
+                yAxes: [{
+                    stacked: true,
+                    /*type: 'logarithmic',
+                    ticks: {
+                        min: 1, //minimum tick
+                        max: 45000, //maximum tick
+                        callback: function (value, index, values) {
+                            return Number(value.toString());//pass tick values as a string into Number function
+                        }
+                    },
+                    afterBuildTicks: function (chartObj) { //Build ticks labelling as per your need
+                        chartObj.ticks = [];
+                        chartObj.ticks.push(1);
+                        chartObj.ticks.push(10);
+                        chartObj.ticks.push(100);
+                        chartObj.ticks.push(1000);
+                        chartObj.ticks.push(3000);
+                        chartObj.ticks.push(6000);
+                        chartObj.ticks.push(10000);
+                        chartObj.ticks.push(20000);
+                        chartObj.ticks.push(30000);
+                        chartObj.ticks.push(45000);
+                    }*/
+                }]
+            }
+        }
+    });
+
+});
+
+
+// search bar
+
+function searchPublisher() {
+    var input, filter, table, tr, td, i, txtValue;
+    input = document.getElementById("input-pp");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("tab_cited");
+    tr = table.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[0];
+        if (td) {
+            txtValue = td.textContent || td.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+            } else {
+                tr[i].style.display = "none";
+            }
+        }
+    }
+}
+
+</script>
+
+
+
+
+<div id="container-chartjs">
+    <canvas id="bar-chartjs" style="width: 90vw !important;"></canvas>
+</div>
+
+<script>
+    var data = jQuery.getJSON('output_read_only_new.json', function(json) {
+        var keys = [];
+
+        var array_of_dict = []; //data structure for the bar graph
+
+        for (var p in json["publishers"]) { // p è una stringa di un numero
+            keys.push([json["publishers"][parseInt(p)]["name"], parseInt(p)]); //p["name"] ? per metterli in ordine alfabetico -- p["name"] è undefined
+        }
+
+        var sortedKeys = keys.sort(function (a, b) {
+            if (a[0] < b[0]) return -1;
+            if (a[0] > b[0]) return 1;
+            return 0;
+        });
+
+        for (var pub of sortedKeys) {
+            // console.log(pub);
+            var name = pub[0];
+            var invalid_citing = json["publishers"][pub[1]]["responsible_for_i"];
+            var valid_citing = json["publishers"][pub[1]]["responsible_for_v"];
+            var table = document.getElementById("tab_citing");
+
+            // console.log(invalid_citing);
+
+            var row = table.insertRow(-1);
+            row.insertCell(0).innerHTML = name;
+            row.insertCell(1).innerHTML = invalid_citing;
+            row.insertCell(2).innerHTML = valid_citing;
+            row.insertCell(3).innerHTML = invalid_citing + valid_citing;
+
+            // has to be 19 in the real world
+            if (array_of_dict.length <= 19) {
+                array_of_dict.push({
+                    "publisher": name,
+                    "invalid_citing": invalid_citing,
+                    "valid_citing": valid_citing,
+                    "total": invalid_citing + valid_citing
+                });
+
+            } else {
+                var pos = 0;
+                var smallest = array_of_dict[0]["total"];
+                for (d of array_of_dict) {
+                    if (d["total"] < smallest) {
+                        smallest = d['total'];
+                        pos = array_of_dict.indexOf(d);
+                    }
+                }
+                if (invalid_citing + valid_citing > smallest) {
+                    array_of_dict[pos]["publisher"] = name;
+                    array_of_dict[pos]["invalid_citing"] = invalid_citing;
+                    array_of_dict[pos]["valid_citing"] = valid_citing;
+                    array_of_dict[pos]["total"] = invalid_citing + valid_citing;
+                }
+
+            }
+
+        } // si chiude il for loop
+
+        // sort array of dict in ordine decrescente
+        array_of_dict.sort(function (a, b) {
+            return b.total - a.total
+        });
+
+
+
+
+
+
+    const ctx = document.getElementById("bar-chartjs").getContext("2d");
+
+    var valid_cit = array_of_dict.map(function (d) {
+        return d.valid_citing;
+    });
+
+    var invalid_cit = array_of_dict.map(function (d) {
+        return d.invalid_citing;
+    });
+
+        var pubs = array_of_dict.map(function (d) {
+            return d.publisher;
+        });
+
+
+    var stackedChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: pubs,
+            datasets: [
+                {
+                    label: 'invalid citing',
+                    data: invalid_cit,
+                    backgroundColor: '#6b5da9' // yellow
+                },
+                {
+                    label: 'valid citing', //per noi è invalid o valid
+                    data: valid_cit, // per noi è il numero, cioè il valore di valid o invalid
+                    backgroundColor: '#35037a' // green
+                }
+
+            ],
+
+        },
+        options: {
+            responsive: true,
+            scales: {
+                xAxes: [{
+                    stacked: true,
+                    ticks: {
+                        autoSkip: false
+                    }
+                }],
+                yAxes: [{
+                    stacked: true,
+                    /*type: 'logarithmic',
+                    ticks: {
+                        min: 1, //minimum tick
+                        max: 45000, //maximum tick
+                        callback: function (value, index, values) {
+                            return Number(value.toString());//pass tick values as a string into Number function
+                        }
+                    },
+                    afterBuildTicks: function (chartObj) { //Build ticks labelling as per your need
+                        chartObj.ticks = [];
+                        chartObj.ticks.push(1);
+                        chartObj.ticks.push(10);
+                        chartObj.ticks.push(100);
+                        chartObj.ticks.push(1000);
+                        chartObj.ticks.push(3000);
+                        chartObj.ticks.push(6000);
+                        chartObj.ticks.push(10000);
+                        chartObj.ticks.push(20000);
+                        chartObj.ticks.push(30000);
+                        chartObj.ticks.push(45000);
+                    }*/
+                }]
+            }
+        }
+    });
+
+    });
+</script>
+
+
+</body>
+</html>
