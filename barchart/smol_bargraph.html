@@ -63,7 +63,7 @@
 </head>
 
 
-<body>
+<body onresize="beforePrintHandler()">
 
 <div id="title">Which objects are the most used for the knowledge of Renaissance?</div>
 
@@ -101,7 +101,7 @@ d3.csv("resources_for_barchart.csv", function (allObjects) {
         datasets: [{
 		  label: "Object type frequency",
 		  data: objectsNum,
-		  backgroundColor: ['#ade6e6', "#ade2e6", "#addae6", "#add8e6", "#add8e6", "#add8e6", "#add3e6", "#b3cde0", "#b3cde0", "#b3cde0", "#b3cde0", "#b3cde0", '#adcae6', '#adcae6', '#adcae6', '#adcae6', '#adcae6', '#adcae6', '#adcae6', '#adcae6', '#adcae6', '#adcae6', '#adcae6', '#adcae6', '#adcae6', '#adcae6', '#adcae6', '#adcae6'],
+		  backgroundColor: ['#FDEDED', "#FDE2E2", "#FDD7D7", "#FCCBCB", "#FCCBCB", "#FCCBCB", "#E9C0C0", "#D5B4B4", "#D5B4B4", "#D5B4B4", "#D5B4B4", "#D5B4B4", '#AD9D9D', '#AD9D9D', '#AD9D9D', '#AD9D9D', '#AD9D9D', '#AD9D9D', '#AD9D9D', '#AD9D9D', '#AD9D9D', '#AD9D9D', '#AD9D9D', '#AD9D9D', '#AD9D9D', '#AD9D9D', '#AD9D9D', '#AD9D9D'],
 		}],
 
       },
@@ -121,6 +121,14 @@ d3.csv("resources_for_barchart.csv", function (allObjects) {
 //https://www.chartjs.org/docs/latest/charts/bar.html
 //https://www.createwithdata.com/chartjs-and-csv/
 
+</script>
+	
+<script>
+function beforePrintHandler () {
+    for (var id in document.getElementById('myChart').instances) {
+        document.getElementById('myChart').instances[id].resize();
+    }
+}
 </script>
 
 </body>
